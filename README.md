@@ -20,7 +20,8 @@ stachu > rm 1
 1. fufufu
 stachu > rm 1
 stachu >
-stachu >
+stachu > q
+$
 ~~~
 
 #### Install and execute
