@@ -6,7 +6,8 @@
 #define CYAN "\x1b[;36m"
 #define RESET "\x1b[;39m"
 
-static bool starts_with(const std::string& str, const std::string& prefix) {
+static bool starts_with(const std::string& str, const std::string& prefix)
+{
     return str.size() >= prefix.size() && str.compare(0, prefix.size(), prefix) == 0;
 }
 
